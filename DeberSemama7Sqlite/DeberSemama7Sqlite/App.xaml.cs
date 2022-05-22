@@ -10,7 +10,7 @@ namespace DeberSemama7Sqlite
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new Login());
         }
 
         protected override void OnStart()

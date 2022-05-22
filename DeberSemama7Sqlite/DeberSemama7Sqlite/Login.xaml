@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeberSemama7Sqlite.Login" Title="Bienvenido al Sitema">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese la Contrasena" IsPassword="True"/>
+            <Button x:Name="btnIniciar" Text="Entrar" Clicked="btnIniciar_Clicked" BackgroundColor="Blue"/>
+            <Button x:Name="btnRegistrar" Text="Registrar" Clicked="btnRegistrar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
